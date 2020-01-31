@@ -1,10 +1,11 @@
 /*Определяем шрифт Caviar Dreams*/
-@font-face{
+@font-face {
     font-family: Caviar Dreams;
     src: url('font/CaviarDreams.ttf')
 }
+
 /*Определяем шрифт Caviar Dreams Bold*/
-@font-face{
+@font-face {
     font-family: Caviar Dreams;
     font-weight: bold;
     src: url('font/CaviarDreamsBold.ttf')
@@ -15,25 +16,30 @@
     padding: 0;
     margin: 0;
 }
+
 /*Для блока body, html*/
 body,
 html {
     height: 100%;
 }
+
 /*Цвет фона body*/
-body{ 
+body { 
     background: #0D52BF;
 }
+
 /*видео-ссылки*/
 iframe {
     width: 640px;
     height: 360px;
 }
+
 /*картинки*/
 a img {
     width: 640px;
     height: 360px;
 }
+
 /*Кнопка в ссылках*/
 a.btn {
     width: 300px;
@@ -53,38 +59,46 @@ a.btn {
     vertical-align: center;
     border-radius: 5px;
 }
-a.btn:hover{background: #3689E6;}
-a.btn:active{background: #64BAFF;}
+
+a.btn:hover { background: #3689E6; }
+
+a.btn:active { background: #64BAFF; }
 
 /*Навигационный бар наверху*/
-nav{
+nav {
     list-style-type: none;
     background-color: #3689E6;
     overflow: hidden;
 }
+
 /*текст*/
-p{
+p {
     color: white;
     font-family: Caviar Dreams;
     font-size: 18px;
 }
+
 p.config { 
     text-align: left;
     padding: 2px 20px;
 }
-p.config:first-child{
+
+p.config:first-child {
     padding: 10px 20px;
     font-weight: bold;
 }
-p.config-center{
+
+p.config-center {
     text-align: center;
     padding: 2px 0;
 }
-p.footer{
+
+p.footer {
     font-weight: bold;
 }
+
 /*Положение кнопок в нав. бара*/
-nav p {margin-left: 10%;}
+nav p { margin-left: 10%; }
 
 /*Текст "DanRed" в нав. баре*/
 nav p.left {
@@ -100,8 +114,9 @@ nav p.left {
     font-weight: bold;
     text-decoration: none;
 }
+
 /*Кнопки в нав. баре*/
-nav p a{
+nav p a {
     float: left;
     user-select: none;
     display: inline ;
@@ -116,28 +131,32 @@ nav p a{
     font-weight: bold;
     text-decoration: none;
 }
-h1{
+
+h1 {
     margin-top: 5px;
     margin-bottom: 5px;
     color: white;
     font-family: Caviar Dreams;
     text-align: center;
 }
-h1.left{
+
+h1.left {
     color: white;
     font-family: Caviar Dreams;
     text-align: left;
     padding: 10px 20px;
 }
-h2{
+
+h2 {
     margin-top: 5px;
     margin-bottom: 5px;
     color: white;
     font-family: Caviar Dreams;
     text-align: center;
 }
+
 /*Горизонтальные линии*/
-hr{
+hr {
     border: none;
     color: #64BAFF;
     background-color: #64BAFF;
@@ -149,8 +168,9 @@ hr{
     margin-right: 10px;
     margin-bottom: 10px;
 }
+
 /*Нижняя шапка*/
-footer{
+footer {
     background-color: #3689E6;
     flex: 0 0 auto;
     overflow: hidden;
@@ -159,32 +179,34 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
 .wrapper {
     display: flex;
     flex-direction: column;
     min-height: 100%;
 }
+
 .content {
     align-content: center;
     flex: 1 0 auto;
 }
 
-nav p a:hover:not(.active) {background-color: #64BAFF;}
+nav p a:hover:not(.active) { background-color: #64BAFF; }
 
-nav p a.active {background-color: #64BAFF;}
+nav p a.active { background-color: #64BAFF; }
 
 @media screen and (min-width: 200px) and (max-width: 900px) and (orientation:portrait){
-    nav p.left{float: none; display: block; margin-left: 0;}
-    nav p {margin-left: 0;}
-    nav p a{float: none; display: block; margin-right: 0; margin-top: 0;}
-    iframe {width: 320px; height: 180px;}
-    a img {width: 320px; height: 180px;}
-    hr {max-width: 80%;}
+    nav p.left{ float: none; display: block; margin-left: 0; }
+    nav p { margin-left: 0; }
+    nav p a{ float: none; display: block; margin-right: 0; margin-top: 0; }
+    iframe { width: 320px; height: 180px; }
+    a img { width: 320px; height: 180px; }
+    hr { max-width: 80%; }
 }
 
 @media screen and (min-width: 200px) and (max-width: 900px) and (orientation:landscape){
-    nav p.left{float: none; display: block; margin-left: 0;}
-    nav p {margin-left: 0;}
-    nav p a{float: none; display: block; margin-right: 0; margin-top: 0;}
-    hr {max-width: 80%;}
+    nav p.left{ float: none; display: block; margin-left: 0; }
+    nav p { margin-left: 0; }
+    nav p a{ float: none; display: block; margin-right: 0; margin-top: 0; }
+    hr { max-width: 80%; }
 }
