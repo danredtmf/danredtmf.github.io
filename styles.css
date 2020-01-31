@@ -175,7 +175,9 @@ footer {
     flex: 0 0 auto;
     overflow: hidden;
     position: fixed;
-    bottom: 0px;
+    top: 0;
+    left: 0;
+    bottom: 0;
 }
 
 .wrapper {
