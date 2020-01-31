@@ -154,7 +154,8 @@ footer{
     background-color: #3689E6;
     flex: 0 0 auto;
     overflow: hidden;
-    float: bottom;
+    position: fixed;
+    left: 0; bottom: 0;
 }
 .wrapper {
 	display: flex;
