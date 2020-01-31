@@ -1,13 +1,13 @@
 /*Определяем шрифт Caviar Dreams*/
 @font-face{
     font-family: Caviar Dreams;
-    src: url('font/CaviarDreams.ttf');
+    src: url('font/CaviarDreams.ttf')
 }
 /*Определяем шрифт Caviar Dreams Bold*/
 @font-face{
     font-family: Caviar Dreams;
     font-weight: bold;
-    src: url('font/CaviarDreamsBold.ttf');
+    src: url('font/CaviarDreamsBold.ttf')
 }
 
 /*Для всех элементов*/
