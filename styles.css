@@ -1,0 +1,187 @@
+/*Определяем шрифт Caviar Dreams*/
+@font-face{
+    font-family: Caviar Dreams;
+    src: url('fonts/CaviarDreams.ttf')
+}
+/*Определяем шрифт Caviar Dreams Bold*/
+@font-face{
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    src: url('fonts/CaviarDreamsBold.ttf')
+}
+
+/*Для всех элементов*/
+* {
+    padding: 0;
+    margin: 0;
+}
+/*Для блока body, html*/
+body,
+html {
+    height: 100%;
+}
+/*Цвет фона body*/
+body{ 
+    background: #0D52BF;
+}
+/*видео-ссылки*/
+iframe {
+	width: 640px;
+	height: 360px;
+}
+/*картинки*/
+a img {
+	width: 640px;
+	height: 360px;
+}
+/*Кнопка в ссылках*/
+a.btn {
+	width: 300px;
+	height: 25px;
+	display: block;
+	margin-top: 5px;
+	text-decoration: none;
+	user-select: none;
+	color: #fff;
+	background: #43ABFF;
+	padding: 10px 10px;
+	outline: none;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 5px;
+}
+a.btn:hover{background: #3689E6;}
+a.btn:active{background: #64BAFF;}
+
+/*Навигационный бар наверху*/
+nav{
+    list-style-type: none;
+    background-color: #3689E6;
+    overflow: hidden;
+}
+/*текст*/
+p{
+	color: white;
+	font-family: Caviar Dreams;
+	font-size: 18px;
+}
+p.config { 
+	text-align: left;
+    padding: 2px 20px;
+}
+p.config:first-child{
+	padding: 10px 20px;
+	font-weight: bold;
+}
+p.config-center{
+	text-align: center;
+    padding: 2px 0;
+}
+p.footer{
+	font-weight: bold;
+}
+/*Положение кнопок в нав. бара*/
+nav p {margin-left: 10%;}
+
+/*Текст "DanRed" в нав. баре*/
+nav p.left {
+    float: left;
+    user-select: none;
+    display: inline;
+    margin-left: 5px;
+    text-align: center;
+    padding: 14.8px 10px;
+    color: white;
+    font-size: 30px;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*Кнопки в нав. баре*/
+nav p a{
+    float: left;
+    user-select: none;
+    display: inline ;
+    margin-top: 18px;
+    margin-right: 5px;
+    padding: 5px 5px;
+    outline: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    text-decoration: none;
+}
+h1{
+	margin-top: 5px;
+	margin-bottom: 5px;
+    color: white;
+    font-family: Caviar Dreams;
+    text-align: center;
+}
+h1.left{
+    color: white;
+    font-family: Caviar Dreams;
+    text-align: left;
+    padding: 10px 20px;
+}
+h2{
+	margin-top: 5px;
+	margin-bottom: 5px;
+    color: white;
+    font-family: Caviar Dreams;
+    text-align: center;
+}
+/*Горизонтальные линии*/
+hr{
+    border: none;
+    color: #64BAFF;
+    background-color: #64BAFF;
+    height: 2px;
+    min-width: 10%;
+    max-width: 65%;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+/*Нижняя шапка*/
+footer{
+    background-color: #3689E6;
+    flex: 0 0 auto;
+    overflow: hidden;
+    
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+    align-content: center;
+	flex: 1 0 auto;
+}
+
+nav p a:hover:not(.active) {background-color: #64BAFF;}
+
+nav p a.active {background-color: #64BAFF;}
+
+@media screen and (min-width: 200px) and (max-width: 900px) and (orientation:portrait){
+    nav p.left{float: none; display: block; margin-left: 0;}
+    nav p {margin-left: 0;}
+    nav p a{float: none; display: block; margin-right: 0; margin-top: 0;}
+    iframe {width: 320px; height: 180px;}
+    a img {width: 320px; height: 180px;}
+    hr {max-width: 80%;}
+}
+
+@media screen and (min-width: 200px) and (max-width: 900px) and (orientation:landscape){
+	nav p.left{float: none; display: block; margin-left: 0;}
+	nav p {margin-left: 0;}
+    nav p a{float: none; display: block; margin-right: 0; margin-top: 0;}
+    hr {max-width: 80%;}
+}
