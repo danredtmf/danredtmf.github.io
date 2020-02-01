@@ -39,6 +39,9 @@ a img {
     width: 640px;
     height: 360px;
 }
+img.right {
+	float: right;
+}
 
 /*Кнопка в ссылках*/
 a.btn {
@@ -94,6 +97,7 @@ p.config-center {
 }
 
 p.footer {
+	font-size: 11px;
     font-weight: bold;
 }
 
@@ -198,6 +202,7 @@ nav p a.active { background-color: #64BAFF; }
     nav p a{ float: none; display: block; margin-right: 0; margin-top: 0; }
     iframe { width: 320px; height: 180px; }
     a img { width: 320px; height: 180px; }
+    img.right { float: none; }
     hr { max-width: 80%; }
 }
 
