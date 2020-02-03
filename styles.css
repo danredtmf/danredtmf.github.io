@@ -165,8 +165,7 @@ hr {
     color: #64BAFF;
     background-color: #64BAFF;
     height: 2px;
-    min-width: 10%;
-    max-width: 65%;
+    width: 640px;
     margin-top: 5px;
     margin-left: 10px;
     margin-right: 10px;
@@ -203,12 +202,12 @@ nav p a.active { background-color: #64BAFF; }
     iframe { width: 320px; height: 180px; }
     a img { width: 320px; height: 180px; }
     img.right { float: none; }
-    hr { max-width: 80%; }
+    hr { width: 320px; }
 }
 
 @media screen and (min-width: 200px) and (max-width: 900px) and (orientation:landscape){
     nav p.left{ float: none; display: block; margin-left: 0; }
     nav p { margin-left: 0; }
     nav p a{ float: none; display: block; margin-right: 0; margin-top: 0; }
-    hr { max-width: 80%; }
+    hr { width: 640px; }
 }
