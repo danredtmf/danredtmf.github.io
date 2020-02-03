@@ -43,6 +43,13 @@ img.right {
     float: right;
 }
 
+a {
+	font-size: 11px;
+    font-weight: bold;
+    font-family: Caviar Dreams;
+    color: white;
+}
+
 /*Кнопка в ссылках*/
 a.btn {
     width: 300px;
@@ -59,7 +66,6 @@ a.btn {
     font-weight: bold;
     font-size: 20px;
     text-align: center;
-    vertical-align: center;
     border-radius: 5px;
 }
 
