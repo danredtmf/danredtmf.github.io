@@ -60,6 +60,10 @@ a.video {
 	text-decoration: none;
 }
 
+a.video p {
+	margin-bottom: -5px;
+}
+
 a.video img {
 	width: 640px;
 	height: 360px;
