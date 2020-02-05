@@ -47,6 +47,8 @@ img.right {
 a.video {
 	background: #43ABFF;
 	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	margin-left: 28px;
 	margin-right: 28px;
 	border-radius: 5px;
@@ -65,7 +67,7 @@ a.video img {
 }
 
 a {
-	font-size: 11px;
+	font-size: 12px;
     font-weight: bold;
     font-family: Caviar Dreams;
     color: white;
@@ -128,7 +130,7 @@ p.config-center {
 }
 
 p.footer {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: bold;
 }
 
