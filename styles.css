@@ -71,8 +71,8 @@ a.video img {
 }
 
 a.video img.pic_p {
-    max-width: 480px;
-    max-height: 854px;
+    width: 480px;
+    height: 854px;
     border-radius: 5px;
 }
 
@@ -245,7 +245,7 @@ nav p a.active { background-color: #64BAFF; }
     iframe { width: 320px; height: 180px; }
     a img { width: 320px; height: 180px; }
     a.video img { width: 320px; height: 180px; }
-    a.video img.pic_p { max-width: 320px; max-height: 600px; }
+    a.video img.pic_p { width: 320px; height: 600px; }
     a.video p { max-width: 320px; }
     img.right { float: none; }
     hr { width: 320px; }
@@ -265,7 +265,7 @@ nav p a.active { background-color: #64BAFF; }
     iframe { width: 160px; height: 90px; }
     a img { width: 240px; height: 140px; }
     a.video img { width: 240px; height: 140px; }
-    a.video img.pic_p { max-width: 200px; max-height: 340px; }
+    a.video img.pic_p { width: 200px; height: 340px; }
     a.video p { max-width: 240px; }
     img.right { float: none; }
     hr { width: 140px; }
