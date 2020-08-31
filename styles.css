@@ -1,14 +1,14 @@
-/*Определяем шрифт Caviar Dreams*/
+/*Определяем шрифт Blogger Sans*/
 @font-face {
-    font-family: Caviar Dreams;
-    src: url('font/CaviarDreams.ttf')
+    font-family: Blogger Sans /*Caviar Dreams;*/
+    src: url('font/BloggerSans.ttf') /*url('font/CaviarDreams.ttf')*/
 }
 
-/*Определяем шрифт Caviar Dreams Bold*/
+/*Определяем шрифт Blogger Sans Bold*/
 @font-face {
-    font-family: Caviar Dreams;
+    font-family: Blogger Sans /*Caviar Dreams;*/
     font-weight: bold;
-    src: url('font/CaviarDreamsBold.ttf')
+    src: url('font/BloggerSansBold.ttf') /*url('font/CaviarDreamsBold.ttf')*/
 }
 
 /*Для всех элементов*/
@@ -79,7 +79,7 @@ a.video img.pic_p {
 a {
 	font-size: 12px;
     font-weight: bold;
-    font-family: Caviar Dreams;
+    font-family: Blogger Sans;
     color: white;
 }
 
@@ -95,7 +95,7 @@ a.btn {
     background: #43ABFF;
     padding: 10px 10px;
     outline: none;
-    font-family: Caviar Dreams;
+    font-family: Blogger Sans;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
@@ -116,7 +116,7 @@ nav {
 /*текст*/
 p {
     color: white;
-    font-family: Caviar Dreams;
+    font-family: Blogger Sans;
     font-size: 18px;
 }
 
@@ -145,7 +145,7 @@ p.footer {
 }
 
 /*Положение кнопок в нав. бара*/
-nav p { margin-left: 10%; }
+nav p { margin-left: 5%; }
 
 /*Текст "DanRed" в нав. баре*/
 nav p.left {
@@ -157,9 +157,18 @@ nav p.left {
     padding: 14.8px 10px;
     color: white;
     font-size: 30px;
-    font-family: Caviar Dreams;
+    font-family: Blogger Sans;
     font-weight: bold;
     text-decoration: none;
+}
+
+nav img.left {
+    float: left;
+    display: inline;
+    margin-left: 5px;
+    /*padding: 14.8px 10px;*/
+    width: 64px;
+    height: 64px;
 }
 
 /*Кнопки в нав. баре*/
@@ -174,7 +183,7 @@ nav p a {
     color: white;
     text-align: center;
     font-size: 18px;
-    font-family: Caviar Dreams;
+    font-family: Blogger Sans;
     font-weight: bold;
     text-decoration: none;
 }
@@ -183,13 +192,13 @@ h1 {
     margin-top: 5px;
     margin-bottom: 5px;
     color: white;
-    font-family: Caviar Dreams;
+    font-family: Blogger Sans;
     text-align: center;
 }
 
 h1.left {
     color: white;
-    font-family: Caviar Dreams;
+    font-family: Blogger Sans;
     text-align: left;
     padding: 10px 20px;
 }
@@ -198,7 +207,7 @@ h2 {
     margin-top: 5px;
     margin-bottom: 5px;
     color: white;
-    font-family: Caviar Dreams;
+    font-family: Blogger Sans;
     text-align: center;
 }
 
@@ -239,7 +248,8 @@ nav p a:hover:not(.active) { background-color: #64BAFF; }
 nav p a.active { background-color: #64BAFF; }
 
 @media screen and (min-width: 200px) and (max-width: 900px) and (orientation:portrait){
-    nav p.left{ float: none; display: block; margin-left: 0; }
+    nav p.left { float: none; display: block; margin-left: 0; }
+    nav img.left { float: none; display: block; margin-left: 0; margin: auto; }
     nav p { margin-left: 0; }
     nav p a{ float: none; display: block; margin-right: 0; margin-top: 0; }
     iframe { width: 320px; height: 180px; }
@@ -253,6 +263,7 @@ nav p a.active { background-color: #64BAFF; }
 
 @media screen and (min-width: 200px) and (max-width: 900px) and (orientation:landscape){
     nav p.left{ float: none; display: block; margin-left: 0; }
+    nav img.left { float: none; display: block; margin-left: 0; margin: auto; }
     nav p { margin-left: 0; }
     nav p a{ float: none; display: block; margin-right: 0; margin-top: 0; }
     hr { width: 640px; }
@@ -260,6 +271,7 @@ nav p a.active { background-color: #64BAFF; }
 
 @media screen and (min-width: 100px) and (max-width: 400px) and (orientation:portrait){
     nav p.left{ float: none; display: block; margin-left: 0; }
+    nav img.left { float: none; display: block; margin-left: 0; margin: auto; }
     nav p { margin-left: 0; }
     nav p a{ float: none; display: block; margin-right: 0; margin-top: 0; }
     iframe { width: 160px; height: 90px; }
