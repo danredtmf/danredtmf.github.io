@@ -1,12 +1,12 @@
 /*Определяем шрифт Blogger Sans*/
 @font-face {
-    font-family: Blogger Sans /*Caviar Dreams;*/
+    font-family: Blogger Sans; /*Caviar Dreams;*/
     src: url('font/BloggerSans.ttf') /*url('font/CaviarDreams.ttf')*/
 }
 
 /*Определяем шрифт Blogger Sans Bold*/
 @font-face {
-    font-family: Blogger Sans /*Caviar Dreams;*/
+    font-family: Blogger Sans; /*Caviar Dreams;*/
     font-weight: bold;
     src: url('font/BloggerSansBold.ttf') /*url('font/CaviarDreamsBold.ttf')*/
 }
