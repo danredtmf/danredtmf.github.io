@@ -1,5 +1,5 @@
 # themysticalfox.github.io
 
-Official site YouTube channel "DanRed"
+Official site YouTube channel "DanRedTMF"
 
-Официальный сайт YouTube канала "DanRed"
+Официальный сайт YouTube канала "DanRedTMF"
