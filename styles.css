@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /*Определяем шрифт Blogger Sans*/
 @font-face {
     font-family: Blogger Sans; /*Caviar Dreams;*/
