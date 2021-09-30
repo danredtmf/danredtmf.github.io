@@ -27,7 +27,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow">
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark shadow">
             <div class="container">
                 <a href="index.html" class="navbar-brand">DanRedTMF</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
@@ -38,7 +38,7 @@
                     <ul class="m-auto"></ul>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a href="video.html" class="nav-link">Видео</a>
+                            <a href="videos.html" class="nav-link">Видео</a>
                         </li>
                         <li class="nav-item">
                             <a href="config.html" class="nav-link">Конфигурация</a>
@@ -58,8 +58,10 @@
         </nav>
     </header>
 
+    <div class="mb-5"></div>
+
     <content>
-        <div class="content h-100 container p-4 pb-3">
+        <div class="content container p-4 pb-3">
             <div class="row">
                 <h1 class="text-center text-white">Разработка</h1>
                 <h2 class="text-center text-white">Игры, сделанные на движке Godot Engine</h2>
@@ -121,7 +123,7 @@
         </div>
     </content>
 
-    <footer class="footer modal-footer shadow position-absolute w-100" style="bottom: 0;">
+    <footer class="footer modal-footer fixed-bottom shadow w-100">
         <div class="container">
             <div class="container text-white">
                 <div class="row">
