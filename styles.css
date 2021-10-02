@@ -1,7 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
-
 /*Определяем шрифт Blogger Sans*/
 @font-face {
     font-family: Blogger Sans; /*Caviar Dreams;*/
@@ -15,275 +11,53 @@ html {
     src: url('font/BloggerSansBold.ttf') /*url('font/CaviarDreamsBold.ttf')*/
 }
 
-/*Для всех элементов*/
 * {
-    padding: 0;
-    margin: 0;
+    font-family: "Blogger Sans";
 }
 
-/*Для блока body, html*/
-body,
-html {
-    height: 100%;
-}
+body {
+    background-color: #1C1C1C;
 
-/*Цвет фона body*/
-body { 
-    background: #0D52BF;
-}
-
-/*видео-ссылки*/
-iframe {
-    width: 640px;
-    height: 360px;
-}
-
-/*картинки*/
-a img {
-    width: 640px;
-    height: 360px;
-}
-
-img.right {
-    float: right;
-}
-
-a.video {
-	background: #43ABFF;
-	padding: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 28px;
-	margin-right: 28px;
-	border-radius: 5px;
-	display: inline-block;
-	text-align: center;
-	word-wrap: break-word;
-	user-select: none;
-	-moz-user-select: none;
-	text-decoration: none;
-}
-
-a.video p {
-	margin-bottom: -5px;
-}
-
-a.video img {
-	width: 640px;
-	height: 360px;
-	border-radius: 5px;
-}
-
-a.video img.pic_p {
-    width: 480px;
-    height: 854px;
-    border-radius: 5px;
-}
-
-a {
-	font-size: 12px;
-    font-weight: bold;
-    font-family: Blogger Sans;
-    color: white;
-}
-
-/*Кнопка в ссылках*/
-a.btn {
-    width: 300px;
-    height: 25px;
-    display: block;
-    margin-top: 5px;
-    text-decoration: none;
-    user-select: none;
-    color: #fff;
-    background: #43ABFF;
-    padding: 10px 10px;
-    outline: none;
-    font-family: Blogger Sans;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 5px;
-}
-
-a.btn:hover { background: #3689E6; }
-
-a.btn:active { background: #64BAFF; }
-
-/*Навигационный бар наверху*/
-nav {
-    list-style-type: none;
-    background-color: #3689E6;
-    overflow: hidden;
-}
-
-/*текст*/
-p {
-    color: white;
-    font-family: Blogger Sans;
-    font-size: 18px;
-}
-
-p.bold {
-	font-weight: bold;
-}
-
-p.config { 
-    text-align: left;
-    padding: 2px 20px;
-}
-
-p.config:first-child {
-    padding: 10px 20px;
-    font-weight: bold;
-}
-
-p.config-center {
-    text-align: center;
-    padding: 2px 0;
-}
-
-p.footer {
-    font-size: 12px;
-    font-weight: bold;
-}
-
-/*Положение кнопок в нав. бара*/
-nav p { margin-left: 5%; }
-
-/*Текст "DanRed" в нав. баре*/
-nav p.left {
-    float: left;
-    user-select: none;
-    display: inline;
-    margin-left: 5px;
-    text-align: center;
-    padding: 14.8px 10px;
-    color: white;
-    font-size: 30px;
-    font-family: Blogger Sans;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-nav img.left {
-    float: left;
-    display: inline;
-    margin-left: 5px;
-    /*padding: 14.8px 10px;*/
-    width: 64px;
-    height: 64px;
-}
-
-/*Кнопки в нав. баре*/
-nav p a {
-    float: left;
-    user-select: none;
-    display: inline ;
-    margin-top: 18px;
-    margin-right: 5px;
-    padding: 5px 5px;
-    outline: none;
-    color: white;
-    text-align: center;
-    font-size: 18px;
-    font-family: Blogger Sans;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-h1 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    color: white;
-    font-family: Blogger Sans;
-    text-align: center;
-}
-
-h1.left {
-    color: white;
-    font-family: Blogger Sans;
-    text-align: left;
-    padding: 10px 20px;
-}
-
-h2 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    color: white;
-    font-family: Blogger Sans;
-    text-align: center;
-}
-
-/*Горизонтальные линии*/
-hr {
-    border: none;
-    color: #64BAFF;
-    background-color: #64BAFF;
-    height: 2px;
-    width: 640px;
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-}
-
-/*Нижняя шапка*/
-footer {
-    background-color: #3689E6;
-    flex: 0 0 auto;
-    overflow: hidden;
-    position: static;
-}
-
-.wrapper {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
 }
 
-.content {
-    align-content: center;
-    flex: 1 0 auto;
+.bg-dark {
+    background-color: #282828!important;
 }
 
-nav p a:hover:not(.active) { background-color: #64BAFF; }
-
-nav p a.active { background-color: #64BAFF; }
-
-@media screen and (min-width: 200px) and (max-width: 900px) and (orientation:portrait){
-    nav p.left { float: none; display: block; margin-left: 0; }
-    nav img.left { float: none; display: block; margin-left: 0; margin: auto; }
-    nav p { margin-left: 0; }
-    nav p a{ float: none; display: block; margin-right: 0; margin-top: 0; }
-    iframe { width: 320px; height: 180px; }
-    a img { width: 320px; height: 180px; }
-    a.video img { width: 320px; height: 180px; }
-    a.video img.pic_p { width: 320px; height: 600px; }
-    a.video p { max-width: 320px; }
-    img.right { float: none; }
-    hr { width: 320px; }
+.nav-link {
+    color: white;
 }
 
-@media screen and (min-width: 200px) and (max-width: 900px) and (orientation:landscape){
-    nav p.left{ float: none; display: block; margin-left: 0; }
-    nav img.left { float: none; display: block; margin-left: 0; margin: auto; }
-    nav p { margin-left: 0; }
-    nav p a{ float: none; display: block; margin-right: 0; margin-top: 0; }
-    hr { width: 640px; }
+.nav-link:hover {
+    color: rgb(180, 180, 180);
 }
 
-@media screen and (min-width: 100px) and (max-width: 400px) and (orientation:portrait){
-    nav p.left{ float: none; display: block; margin-left: 0; }
-    nav img.left { float: none; display: block; margin-left: 0; margin: auto; }
-    nav p { margin-left: 0; }
-    nav p a{ float: none; display: block; margin-right: 0; margin-top: 0; }
-    iframe { width: 160px; height: 90px; }
-    a img { width: 240px; height: 140px; }
-    a.video img { width: 240px; height: 140px; }
-    a.video img.pic_p { width: 200px; height: 340px; }
-    a.video p { max-width: 240px; }
-    img.right { float: none; }
-    hr { width: 140px; }
-    a.btn { width: 225px; }
+.modal-footer {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    background-color: #282828;
+    border-top: 1px solid rgb(40, 40, 40);
+}
+
+.btn-secondary {
+    background-color: #282828;
+    border: 1px solid #282828;
+}
+
+.btn-secondary:hover {
+    background-color: #1C1C1C;
+    border: 1px solid #282828;
+}
+
+.btn-check:active {
+    background-color: #1C1C1C;
+    border: 1px solid #282828;
+}
+
+footer {
+    margin-top: auto;
 }
