@@ -27,6 +27,14 @@ body {
     background-color: #282828!important;
 }
 
+.hover-dark {
+	background-color: #282828!important;
+}
+
+.hover-dark:hover {
+	background-color: #181818!important;
+}
+
 .nav-link {
     color: white;
 }
