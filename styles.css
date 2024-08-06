@@ -81,6 +81,39 @@ body {
     border: 2px solid;
 }
 
+.btn-link {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.boosty-bg {
+    background-color: #F15F2C!important;
+}
+
+.donationalerts-bg {
+    background: linear-gradient(to right, #F57507, #F59C07)!important;
+}
+
+.telegram-bg {
+    background-color: #0088CC!important;
+}
+
+.youtube-bg {
+    background-color: #FF0000!important;
+}
+
+.vk-bg {
+    background-color: #0077FF!important;
+}
+
+.itch-bg {
+    background-color: #fa5c5c!important;
+}
+
+.gamejolt-bg {
+    background-color: #ccff00!important;
+}
+
 .card-header {
     background-color: #1C1C1C!important;
     border-bottom: 2px solid;
